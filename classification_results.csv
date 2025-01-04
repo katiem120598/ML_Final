@@ -1,0 +1,84 @@
+Row Labels,File Name,Max of Probability,Max of Probability of Intl Style
+B_European,B_European_detail_classifier_model_analysis_in_False.jpg,10.618355,65.590416
+,B_European_detail_classifier_model_analysis_in_True.jpg,0.6916786,99.997475
+,B_European_detail_classifier_model_bw_analysis_in_False.jpg,27.874395,99.60587
+,classifier_model,0.26204497,99.60587
+,classifier_model_bw,2.4310799,97.28636
+,classifier_model_small,27.874395,71.34733
+,B_European_detail_classifier_model_bw_analysis_in_True.jpg,17.898237,97.97495
+,B_European_detail_classifier_model_bw_classifier_model_bw_False.jpg,6.417884,99.77063
+,B_European_detail_classifier_model_bw_classifier_model_bw_True.jpg,5.1493535,8.209421
+,B_European_detail_classifier_model_classifier_model_False.jpg,0.6491184,64.03642
+,B_European_detail_classifier_model_classifier_model_True.jpg,0.6715249,96.565254
+,B_European_detail_classifier_model_small_analysis_in_False.jpg,17.228062,96.86158
+,B_European_detail_classifier_model_small_analysis_in_True.jpg,0.6242372,99.99468
+,B_European_detail_classifier_model_small_classifier_model_small_False.jpg,21.32371,91.78897
+,B_European_detail_classifier_model_small_classifier_model_small_True.jpg,0.42267507,95.7553
+B_European Total,,27.874395,99.997475
+C_Japanese,C_Japanese_detail_classifier_model_analysis_in_False.jpg,6.15837,96.95358
+,C_Japanese_detail_classifier_model_analysis_in_True.jpg,0.15897506,99.9717
+,C_Japanese_detail_classifier_model_bw_analysis_in_False.jpg,6.4988127,98.35939
+,classifier_model,0.16092262,98.35939
+,classifier_model_bw,6.4988127,90.50354
+,classifier_model_small,3.5576067,61.858456
+,C_Japanese_detail_classifier_model_bw_analysis_in_True.jpg,0.40438432,99.6731
+,C_Japanese_detail_classifier_model_bw_classifier_model_bw_False.jpg,0.109961756,99.999664
+,C_Japanese_detail_classifier_model_bw_classifier_model_bw_True.jpg,0.03327857,99.99195
+,C_Japanese_detail_classifier_model_classifier_model_False.jpg,0.014984522,99.964226
+,C_Japanese_detail_classifier_model_classifier_model_True.jpg,1.0554645,99.99027
+,C_Japanese_detail_classifier_model_small_analysis_in_False.jpg,0.2906721,99.39449
+,C_Japanese_detail_classifier_model_small_analysis_in_True.jpg,0.039845247,99.61132
+,C_Japanese_detail_classifier_model_small_classifier_model_small_False.jpg,2.222857,99.926956
+,C_Japanese_detail_classifier_model_small_classifier_model_small_True.jpg,15.460684,98.72266
+C_Japanese Total,,15.460684,99.999664
+D_Korean,D_Korean_detail_classifier_model_analysis_in_False.jpg,0.028176373,99.667015
+,D_Korean_detail_classifier_model_analysis_in_True.jpg,2.8120012,67.74745
+,D_Korean_detail_classifier_model_bw_analysis_in_False.jpg,0.082806386,96.49343
+,D_Korean_detail_classifier_model_bw_analysis_in_True.jpg,0.07819321,77.869125
+,D_Korean_detail_classifier_model_bw_classifier_model_bw_False.jpg,90.93123,3.8148806
+,D_Korean_detail_classifier_model_bw_classifier_model_bw_True.jpg,99.120186,15.589526
+,D_Korean_detail_classifier_model_classifier_model_False.jpg,38.952686,23.564333
+,D_Korean_detail_classifier_model_classifier_model_True.jpg,86.97953,56.89807
+,D_Korean_detail_classifier_model_small_analysis_in_False.jpg,0.028807407,99.14024
+,D_Korean_detail_classifier_model_small_analysis_in_True.jpg,0.10589167,43.672726
+,D_Korean_detail_classifier_model_small_classifier_model_small_False.jpg,99.07673,3.1077962
+,classifier_model,99.07673,0.81124717
+,classifier_model_bw,92.35077,2.0390854
+,classifier_model_small,73.30501,3.1077962
+,D_Korean_detail_classifier_model_small_classifier_model_small_True.jpg,96.29376,2.1604397
+D_Korean Total,,99.120186,99.667015
+E_Chinese,E_Chinese_detail_classifier_model_analysis_in_False.jpg,32.659332,90.13582
+,E_Chinese_detail_classifier_model_analysis_in_True.jpg,70.03204,58.882748
+,E_Chinese_detail_classifier_model_bw_analysis_in_False.jpg,93.43729,52.065723
+,classifier_model,93.43729,6.5489345
+,classifier_model_bw,77.17589,22.578222
+,classifier_model_small,46.868862,52.065723
+,E_Chinese_detail_classifier_model_bw_analysis_in_True.jpg,6.202068,99.0902
+,E_Chinese_detail_classifier_model_bw_classifier_model_bw_False.jpg,0.051548965,99.97428
+,E_Chinese_detail_classifier_model_bw_classifier_model_bw_True.jpg,8.679768,67.03633
+,E_Chinese_detail_classifier_model_classifier_model_False.jpg,0.4113459,99.51567
+,E_Chinese_detail_classifier_model_classifier_model_True.jpg,12.376046,31.41658
+,E_Chinese_detail_classifier_model_small_analysis_in_False.jpg,37.42094,93.10891
+,E_Chinese_detail_classifier_model_small_analysis_in_True.jpg,48.75002,50.184227
+,E_Chinese_detail_classifier_model_small_classifier_model_small_False.jpg,0.15168498,99.93898
+,E_Chinese_detail_classifier_model_small_classifier_model_small_True.jpg,10.258952,0.65518576
+E_Chinese Total,,93.43729,99.97428
+F_Indian,F_Indian_detail_classifier_model_analysis_in_False.jpg,27.93366,3.4990833
+,F_Indian_detail_classifier_model_analysis_in_True.jpg,4.256611,42.639874
+,F_Indian_detail_classifier_model_bw_analysis_in_False.jpg,43.869987,2.1356978
+,classifier_model,2.3652232,0.09363077
+,classifier_model_bw,12.048577,2.1356978
+,classifier_model_small,43.869987,0.567919
+,F_Indian_detail_classifier_model_bw_analysis_in_True.jpg,12.293976,27.66109
+,F_Indian_detail_classifier_model_bw_classifier_model_bw_False.jpg,0.2690068,4.2966857
+,F_Indian_detail_classifier_model_bw_classifier_model_bw_True.jpg,0.8233123,99.88733
+,F_Indian_detail_classifier_model_classifier_model_False.jpg,1.3438376,0.9004643
+,F_Indian_detail_classifier_model_classifier_model_True.jpg,1.6917037,99.1727
+,F_Indian_detail_classifier_model_small_analysis_in_False.jpg,32.295208,1.767381
+,F_Indian_detail_classifier_model_small_analysis_in_True.jpg,27.08391,26.396269
+,F_Indian_detail_classifier_model_small_classifier_model_small_False.jpg,0.9877043,19.380022
+,F_Indian_detail_classifier_model_small_classifier_model_small_True.jpg,2.827259,99.39174
+F_Indian Total,,43.869987,99.88733
+(blank),(blank),,
+(blank) Total,,,
+Grand Total,,99.120186,99.999664

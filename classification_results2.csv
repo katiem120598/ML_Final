@@ -1,0 +1,16 @@
+File Name,Classifier,Class Name,Probability,Probability of Intl Style,Class ID,
+B_European_detail.jpg,classifier_model,B_European,0.00,100.00,1,3.98
+B_European_detail.jpg,classifier_model_bw,B_European,0.01,99.99,1,
+B_European_detail.jpg,classifier_model_small,B_European,3.98,95.80,1,
+C_Japanese_detail.jpg,classifier_model,C_Japanese,0.00,99.96,2,0.26
+C_Japanese_detail.jpg,classifier_model_bw,C_Japanese,0.26,98.16,2,
+C_Japanese_detail.jpg,classifier_model_small,C_Japanese,0.00,99.36,2,
+D_Korean_detail.jpg,classifier_model,D_Korean,0.12,52.31,3,0.12
+D_Korean_detail.jpg,classifier_model_bw,D_Korean,0.06,66.35,3,
+D_Korean_detail.jpg,classifier_model_small,D_Korean,0.09,90.07,3,
+E_Chinese_detail.jpg,classifier_model,E_Chinese,0.08,0.09,4,0.86
+E_Chinese_detail.jpg,classifier_model_bw,E_Chinese,0.86,0.23,4,
+E_Chinese_detail.jpg,classifier_model_small,E_Chinese,0.37,0.58,4,
+F_Indian_detail.jpg,classifier_model,F_Indian,40.00,2.15,5,93.42
+F_Indian_detail.jpg,classifier_model_bw,F_Indian,21.88,2.70,5,
+F_Indian_detail.jpg,classifier_model_small,F_Indian,93.42,0.74,5,

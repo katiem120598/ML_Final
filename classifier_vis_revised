@@ -1,0 +1,59 @@
+from classifier_helper import *
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+from PIL import Image
+
+def classifier_visualizer(class1_idx, class2_idx, root_folder_path):
+    os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+    DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    MODEL_FOLDER = os.path.join(os.getcwd(), 'classifier_model')
+    IMAGES_FOLDER = os.path.join(os.getcwd(), root_folder_path)
+    classifier = Classifier.createWithImgNetModel(MODEL_FOLDER, device=DEVICE)
+    classifier.load()
+
+    def is_image_file(file: str) -> bool:
+        return file.lower().endswith((".jpg", ".png", ".jpeg"))
+
+    for folder_name in os.listdir(IMAGES_FOLDER):
+        folder_path = os.path.join(IMAGES_FOLDER, folder_name)
+        if os.path.isdir(folder_path):
+            image_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if is_image_file(f)]
+            x_data, y_data, df = [], [], pd.DataFrame(columns=['Year', 'Difference', 'Solo'])
+
+            for image_file in image_files:
+                image = Image.open(image_file).convert('RGB')
+                activation, probability, maximum_index = classifier.classify(image)
+                x_data.append(activation[class1_idx])
+                y_data.append(activation[class2_idx])
+                
+                year = os.path.basename(image_file).split('_')[1]
+                difference = activation[class2_idx] - activation[class1_idx]
+                df = df.append({'Year': year, 'Difference': difference, 'Solo': activation[class2_idx]}, ignore_index=True)
+
+            # Save DataFrame to CSV
+            df.to_csv('activation_results/' + folder_name + '.csv', index=False)
+            visualize_data(x_data, y_data, image_files, classifier.class_names[class1_idx], classifier.class_names[class2_idx])
+
+def visualize_data(x_data, y_data, image_files, axis1, axis2):
+    img_sz = (max(x_data) - min(x_data)) * 0.04
+    plt.figure(figsize=(10, 10), facecolor=(0.1, 0.1, 0.1))
+    ax = plt.gca()
+    ax.set_facecolor((0.1, 0.1, 0.1))
+    ax.axhline(0, color=(1, 1, 1), linestyle='--')
+    ax.axvline(0, color=(1, 1, 1), linestyle='--')
+    plt.title(f"Planar projection along {axis1} and {axis2}", color='white')
+    plt.xlabel(axis1, color='white')
+    plt.ylabel(axis2, color='white')
+
+    for i, img_file in enumerate(image_files):
+        image = Image.open(img_file).resize((128, 128), resample=Image.LANCZOS)
+        x, y = x_data[i], y_data[i]
+        ax.imshow(image, extent=(x - img_sz, x + img_sz, y - img_sz, y + img_sz), aspect='auto')
+        plt.text(x, y, os.path.basename(img_file).split('_')[1], color='white', ha='center', va='center')
+
+    plt.grid(True)
+    plt.show()
+
+# Usage example
+classifier_visualizer(0, 1, 'path_to_test_folders')

@@ -1,0 +1,16 @@
+File Name,Classifier,Class Name,Probability,Probability of Intl Style,Class ID,,,
+B_European.jpg,classifier_model,B_European,1.0064851,54.779022,1,7.7712135,,-731.1016034
+B_European.jpg,classifier_model_bw,B_European,7.7712135,64.58668,1,,,
+B_European.jpg,classifier_model_small,B_European,6.779974,41.456173,1,,,
+C_Japanese.jpg,classifier_model,C_Japanese,5.56E-05,1.5636716,2,0.006269172,,-1258220.018
+C_Japanese.jpg,classifier_model_bw,C_Japanese,0.001987898,0.47658154,2,,,
+C_Japanese.jpg,classifier_model_small,C_Japanese,0.006269172,78.88625,2,,,
+D_Korean.jpg,classifier_model,D_Korean,31.237333,0.19586678,3,31.237333,,99.37297214
+D_Korean.jpg,classifier_model_bw,D_Korean,2.200453,0.75835764,3,,,
+D_Korean.jpg,classifier_model_small,D_Korean,18.023705,1.2926326,3,,,
+E_Chinese.jpg,classifier_model,E_Chinese,10.449888,6.531126,4,10.449888,,37.50051675
+E_Chinese.jpg,classifier_model_bw,E_Chinese,6.93344,8.805154,4,,,
+E_Chinese.jpg,classifier_model_small,E_Chinese,8.041723,6.24326,4,,,
+F_Indian.jpg,classifier_model,F_Indian,0.12206994,7.3297644,5,7.0491633,,-176.4306226
+F_Indian.jpg,classifier_model_bw,F_Indian,1.127196,3.699778,5,,,
+F_Indian.jpg,classifier_model_small,F_Indian,7.0491633,19.486046,5,,,
